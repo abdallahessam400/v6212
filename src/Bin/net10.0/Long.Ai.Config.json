@@ -1,0 +1,17 @@
+{
+    "Database": {
+        "Hostname": "localhost",
+        "Username": "root",
+        "Password": "",
+        "Schema": "basiclong",
+        "Port": 3306
+    },
+    "Ai": {
+        "ServerId": "03835b48-da5e-44fb-be9b-ebbf1a6d1351",
+        "Name": "Test",
+        "IPAddress": "127.0.0.1",
+        "Port": 8650,
+        "Username": "Yyq92FYela5YJ5j2",
+        "Password": "ZzXHHeyX3xg434oq"
+    }
+}

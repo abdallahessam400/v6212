@@ -1,0 +1,112 @@
+{
+    "CooperatorMode": false,
+    "Game": {
+        "Id": 1,
+        "Guid": "94390aa0-c75d-11ed-9586-0050560401e2",
+        "Name": "Virgo",
+        "IPAddress": "26.172.191.16",
+        "Port": 5816,
+        "MaxOnlinePlayers": 1500,
+        "MaxConnections": 16384,
+        "MsgCountOut": 130,
+        "Username": "Yyq92FYela5YJ5j2",
+        "Password": "ZzXHHeyX3xg434oq",
+        "ReleaseDate": null,
+        "Processors": 4,
+        "Listener": {
+            "RecvProcessors": 1,
+            "SendProcessors": 1
+        }
+    },
+    "Database": {
+        "Hostname": "localhost",
+        "Username": "root",
+        "Password": "",
+        "Schema": "basiclong",
+        "Port": 3306
+    },
+    "Login": {
+        "IPAddress": "127.0.0.1",
+        "Port": 9865,
+        "Encryption": {
+            "Key": "M6gkSkSNXMZeyIwNc7YBUj42wuyh686pYmAK5Vg9L30=",
+            "EncryptIV": "dGZIN8XB4o4QgNJ5YXc1Sw==",
+            "DecryptIV": "K7wCbVKECO1noApl1laftA=="
+        }
+    },
+    "CrossCipher": {
+        "Key": "M6gkSkSNXMZeyIwNc7YBUj42wuyh686pYmAK5Vg9L30=",
+        "EncryptIV": "dGZIN8XB4o4QgNJ5YXc1Sw==",
+        "DecryptIV": "K7wCbVKECO1noApl1laftA=="
+    },
+    "Cross": {
+        "IPAddress": "0.0.0.0",
+        "ListenPort": 9856,
+        "Encryption": {
+            "Key": "M6gkSkSNXMZeyIwNc7YBUj42wuyh686pYmAK5Vg9L30=",
+            "EncryptIV": "K7wCbVKECO1noApl1laftA==",
+            "DecryptIV": "dGZIN8XB4o4QgNJ5YXc1Sw=="
+        }
+    },
+    "Piglet": {
+        "IPAddress": "26.172.191.16",
+        "Port": 4351,
+        "Username": "Yyq92FYela5YJ5j2",
+        "Password": "ZzXHHeyX3xg434oq"
+    },
+    "Ai": {
+        "IPAddress": "127.0.0.1",
+        "Port": 8650,
+        "Username": "Yyq92FYela5YJ5j2",
+        "Password": "ZzXHHeyX3xg434oq"
+    },
+    "Realm": {
+        "IPAddress": "127.0.0.1",
+        "Port": 9855,
+        "Username": "realmtestdbg",
+        "Password": "realmtestdbg",
+        "Servers": [
+            {
+                "ServerID": 1,
+                "ServerName": "Virgo",
+                "IPAddress": "127.0.0.1",
+                "Port": 9856,
+                "Username": "test",
+                "Password": "test"
+            },
+            {
+                "ServerID": 101,
+                "ServerName": "Realm1",
+                "IPAddress": "127.0.0.1",
+                "Port": 9855,
+                "Username": "test",
+                "Password": "test"
+            }
+        ]
+    },
+    "Modules": [
+    "Pigeon",
+    "Qualifying",
+    "Guide",
+    "Peerage",
+    "Flower",
+    "Rank",
+    "Competion",
+    "Family",
+    "TaskDetail",
+    "Totem",
+    "Syndicate",
+    "Trade",
+    "Booth",
+    "Relation",
+    "Team",
+    "AstProf",
+    "Fate",
+    "JiangHu",
+    "NeiGong"
+  ],
+    "Language": {
+        "StringFile": "ini/En_Res.ini",
+        "ActionStringFile": "ini/action_Res.ini"
+    }
+}
